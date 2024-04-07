@@ -9,8 +9,6 @@ The Charity Management System is an online platform designed to help charities e
 - User interface management: Different user roles, such as researchers and supervisors, have specific permissions and access levels within the system.
 - Translation: Translated interface for the users in both Arabic and English using Django's Rosetta.
 
-# Installation and Usage
-
 ## Requiremnts:
 
 - [Python](https://www.python.org/downloads/) (3.11.3 is preferred)
