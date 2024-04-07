@@ -1,4 +1,4 @@
-The Charity Management System is a web-based platform developed for Charities to streamline their charitable activities and improve their organizational processes. The system aims to provide efficient management and organization of data related to people in need and the services provided by the charity.
+The Charity Management System is an online platform designed to help charities enhance their charitable operations and optimize their administrative workflows. It's focused on effectively managing and organizing information concerning individuals in need and the support services offered by the charity.
 
 ## Features
 
@@ -45,21 +45,6 @@ The Charity Management System is a web-based platform developed for Charities to
    ```
 6. Access the application:
    The application should now be running locally. Open a web browser and navigate to the specified address (e.g., `http://localhost:8000`) to access the Charity Management System.
-
-## Notes:
-
-- You must create a .env (environment variables) for the project to work. You should create it in the **Charity-Managment-Website/django_project**. It should include the following:
-  - DEBUG = True
-  - SECRET_KEY = {{your secret key}}
-  - DATABASE_URL=sqlite:///db.sqlite3
-  - EMAIL_HOST_PASSWORD = {{your sendgrid API}}
-  - DEFAULT_FROM_EMAIL ={{your email}}
-- The SECRET_KEY can be genereted using:
-  ```
-  python -c "import secrets;
-  print(secrets.token_urlsafe())"
-  ```
-- The Email configuration can be found through using [SendGrid](https://app.sendgrid.com/), or any other email service provider. This is for the **forget password** functionality.
 
 # Technologies
 
